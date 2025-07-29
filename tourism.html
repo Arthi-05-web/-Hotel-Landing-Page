@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<body>
+                              <!--NAV BARS WITH TABS-->
+<header>
+    <nav>
+    <div >
+        <div class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" data-bs-target="#links" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <div class="justify-content-start">
+                  <a class="navbar-brand" href="#">
+                      <img src="India1.jpg" alt="" width="50" height="50">
+                   </a>
+            </div>
+      
+        <div id="links" class="collapse navbar-collapse justify-content-center">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+         </ul>
+        </div>
+            <div class="justify-content-end">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="text-dark"><i class="bi bi-telephone"></i><u> 9876543210</u></a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    </nav>
+</header>
+                         <!--BANNER USING CAROUSEL-->
+
+<section>
+ 
+  <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+  <div class="carousel-indicators row">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="himalayas.webp" class="d-block w-100" alt="..." height="600px">
+      <div class="carousel-caption d-none d-md-block text-light">
+        <h3 class="fw-dold">JAMMU AND KASHMIR</h3>
+        <h5 >The Himalayas</h5>
+        <p>"Where the earth touches the sky — discover the timeless majesty of the Himalayas."</p>
+      </div>
+    </div>
+    <div class="carousel-item" >
+      <img src="Tanjore.jpg" class="d-block w-100" alt="..." height="600px">
+      <div class="carousel-caption d-none d-md-block text-light">
+        <h3 class="fw-dold">TAMILNADU</h3>
+        <h5>The Greate Chola's Temple</h5>
+        <p>"Standing tall for over a thousand years, the majestic Brihadeeswarar Temple in Thanjavur is not just a marvel of Chola architecture, but a timeless symbol of spiritual grandeur, intricate artistry, and the rich cultural legacy of Tamil Nadu that continues to inspire awe in every visitor." </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="kerala.jpg" class="d-block w-100" alt="..." height="600px">
+      <div class="carousel-caption d-none d-md-block text-light">
+        <h3 class="fw-dold">KERALA</h3>
+        <h5>Alleppey</h5>
+        <p>"Gliding gently through the emerald backwaters of Alappuzha, the traditional houseboats offer a serene escape into Kerala’s timeless beauty, where the river whispers stories of coconut palms, village life, and endless peace."</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="palace.jpg" class="d-block w-100" alt="..." height="600px">
+      <div class="carousel-caption d-none d-md-block text-light">
+        <h3 class="fw-dold">KARNATAKA</h3>
+        <h5>Mysore palace</h5>
+        <p>"A dazzling blend of royalty and architecture, the Mysore Palace stands as a timeless jewel of Karnataka, where every corridor echoes the opulence of a bygone era."</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" style="color: white;">
+    <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</section>
+             <!--SERVICES-->
+<section id="services">
+    <div class="container bg-info mt-3">
+       <div class="row justify-content-center">
+            <div class="col-2 mx-4 my-3 p-1 " style="width:300px">
+                <img src="bus.jpg"class="card-img-top" alt="" height="250">
+                <h4 class="pt-2 fw-bold">BUS</h4>
+                <p>Connecting you to places and people.</p>
+                <br>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#busmodal">Check It Out</button>
+            </div>
+      
+            <div class="col-2 mx-4  my-3 p-1" style="width:300px">
+                <img src="room.avif"class="card-img-top" alt="" height="250px">
+                <h4 class="pt-2 fw-bold">ROOM</h4>
+                <p>Good day starts with a good night’s stay.</p> 
+                  <br>
+                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#roommodal">Check It Out</button>
+            </div>
+
+            <div class="col-2 mx-4 my-3 p-1" style="width:300px">
+                <img src="food.jpg"class="card-img-top" alt="" height="250px">
+                <h4 class="pt-2 fw-bold">FOOD</h4>
+                <p>Taste the tradition, love the flavour.</p>
+                <br>
+                <button class="btn btn-primary  "data-bs-toggle="modal" data-bs-target="#foodmodal">Check It Out</button>
+            </div>
+         </div> 
+      </div>
+ </section>
+                     <!--MODAL TABS-->
+<section id="modals">
+<div class="modal fade" tabindex="-1" id="busmodal">
+  <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Book Your Bus</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="fw-bold">Please enter the details</p>
+        <label>Enter No.of Persons:</label>
+        <input type="number" placeholder="choose">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" tabindex="-1" id="roommodal">
+  <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Book Your Room</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="fw-bold">Select your comfort</p>
+         <input type="radio" >
+       <label>5-Star</label><br>
+       <input type="radio" >
+       <label>4-star</label><br>
+       <input type="radio" >
+       <label>3-star</label><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" tabindex="-1" id="foodmodal">
+  <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Food Type</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label class="fw-bold">Select your food type</label><br>
+       <input type="radio">
+       <label>Vegetarian</label><br>
+       <input type="radio">
+       <label>Non-Vegetarian</label>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+                                <!--ACCORDIONS-->
+<section>
+<div class="container accordian my-4 mx-6">
+  <h4 class="fw-bold">People Ask For..</h4>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        What documents are required to travel?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">To travel within India, you’ll need a valid government-issued ID like an Aadhaar card, Voter ID, Driving License, or Passport—especially for flights, train journeys, and hotel check-ins. Keep your travel tickets and hotel booking confirmations ready, either printed or on your phone. Children may need a birth certificate or school ID. For road trips, carry your driving license, RC book, insurance, and pollution certificate. Though not always required, it’s good to keep your COVID-19 vaccination certificate and any essential medical prescriptions handy.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        What are the Cultural Tips and Travel Guidelines?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">When traveling in India, respect local customs by dressing modestly and removing your shoes before entering temples or homes. Use your right hand for eating and giving items, as it's considered polite. Public affection is uncommon, so keep it minimal. Learn a few local greetings like “Namaste” or “Vanakkam” to connect with people. Always drink bottled water and carry hand sanitizer. Bargaining is normal in local markets, but be respectful. Book tours and services from trusted sources to avoid scams, and keep your valuables safe, especially in crowded places.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Need State-Wise Travel Info?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">India offers a diverse travel experience across its states — Tamil Nadu is known for its magnificent temples and rich cultural routes that reflect ancient heritage. Kerala enchants visitors with its serene backwaters and rejuvenating Ayurvedic traditions. Rajasthan captivates with its majestic forts, royal palaces, and golden deserts. Himachal Pradesh, nestled in the Himalayas, is a paradise for snow lovers and thrill-seekers, offering a range of adventure sports amidst breathtaking mountain views.</div>
+    </div>
+  </div>
+   <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        What are the Service that are Included?
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Our travel packages come with a range of included services to ensure a smooth and enjoyable experience. These typically include comfortable transport arrangements, delicious meals as per the itinerary, and the assistance of a professional tour guide to help you explore each destination with ease. Some packages may also cover entry tickets, local sightseeing, and accommodation, depending on the plan you choose.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        What are the Service that are Not Included?
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">These typically include personal expenses such as shopping, laundry, or meals outside the planned itinerary, as well as entry fees to attractions or events that are not included in the package price. Travelers are responsible for these additional costs, which should be considered separately when budgeting for the trip or service.</div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+                                           <!--FOOTER-->
+<hr>
+<footer>
+    <div class="container mb-2">
+        <div class="row">
+            <div class="col">
+                <h3>TRIPO INDIA</h3>
+                <p>Tripo India is your trusted travel partner, helping you explore the diverse beauty and culture of India. Whether you're looking for relaxation, adventure, tradition, or modern vibes — we bring every travel dream to life.
+                </p>
+                <a href="#"><i class="bi bi-telephone"></i> 1234567890</span><br>
+                <a href="#"><i class="bi bi-telephone"></i> 12345-67793</a>
+            </div>
+            <div class="col text-center">
+                <h3>More</h3>
+                <ul class="list-unstyled">
+                    <li><a>Home</a></li> 
+                    <li><a>Contact</a></li> 
+                    <li><a>Page</a></li> 
+                    <li><a>FAQs</a></li> 
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Follow us on</h3>
+                <a href="#"><i class="bi bi-instagram"></i> Instagram</a><br>
+                <a href="#"><i class="bi bi-facebook"></i> Facebook</a><br>
+                <a href="#"><i class="bi bi-youtube"></i> Youtube</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</html>
